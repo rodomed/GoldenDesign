@@ -1,0 +1,90 @@
+main {
+	margin: 0px 0px;
+}
+
+.mainblock {
+	
+}
+
+.obraz {
+	background: url('images/back_sub.jpg');
+	width: 300px;
+	height: 300px;
+}
+
+.confer {
+	background: url('images/back_sup.jpg');
+	width: 300px;
+	height: 300px;
+}
+
+
+
+.foto {
+
+	margin: 0px 0px;
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+
+main {
+		
+	}
+
+	.foto {
+	
+	margin: 0px -15px;
+}
+
+.mainblock {
+  	
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+main {
+		
+	}
+
+	.foto {
+	
+	margin: 0px -15px;
+}
+
+.mainblock {
+  	
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	main {
+		margin: 0px 25px;
+	}
+
+	.mainblock {}
+		
+}
+ @media (min-width: 1200px) and (max-width: 1399px) { 
+
+	main {
+		margin: 0px 35px;
+	}
+
+  .mainblock {}
+	
+}
+
+@media (min-width: 1400px) { 
+
+
+		main {
+		margin: 0px 35px;
+	}
+ 
+	.mainblock {
+		height: 900px;
+	}
+	
+}
