@@ -4,7 +4,7 @@ footer {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	background-color: rgba(109, 207, 246, .12 );
+	background-color: rgba(109, 207, 246, .12);
 	padding: 80px 50px 80px 50px ;
 	margin: auto;
 	justify-content: space-between;
@@ -22,6 +22,15 @@ footer p {
 	font-family: Intro-Book;
 	font-size: 16px;
 	line-height: 24px;
+}
+
+footer .tuning {
+	margin-top: 10px; 
+	display: inline-block;
+  width: 121px;
+  height: 52px;
+  background-image: linear-gradient(rgba(109, 207, 246, .12),rgba(109, 207, 246, .12)),
+                    url("../images/logo.png");
 }
 
 footer img {
