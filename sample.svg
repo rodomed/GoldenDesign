@@ -1,0 +1,17 @@
+<svg class="sto" version="1.1" xmlns="http://www.w3.org/2000/svg" width="887" height="354" viewBox='0 0 887 354'>
+
+						<defs>
+							<style>
+							.clip-text {
+ 								font-size: 504px;
+ 							}
+							.img-clip {
+								clip-path: url(#numerClipping);
+							}
+							</style>
+							<clipPath id="numerClipping">
+								<text class="clip-text" x="20" y="354">100</text>
+							</clipPath>
+						</defs>
+						<image class="img-clip" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/back_sto.jpg" x="0" y="0" width="887" height="354"></image>
+					</svg>

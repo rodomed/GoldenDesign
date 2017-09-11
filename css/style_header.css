@@ -78,18 +78,21 @@ header {
 }
 
 .sto {
-	font-size: 298px;
-	line-height: 474px;
-	text-align: center;
-	font-family: Intro-Black;
-  background-image: linear-gradient(rgba(255, 109, 0, 0.4), rgba(255, 109, 0, 0.4)),
-                    url('../images/back_sto.jpg');
-  -webkit-text-fill-color: transparent;
+
+  /*width: 100%;
+  height: 455px;*/
+	/*font-size: 298px;*/
+	/*line-height: 474px;
+	text-align: center;*/
+	/*font-family: Intro-Black;*/
+  /*background-image: linear-gradient(rgba(255, 109, 0, 0.4), rgba(255, 109, 0, 0.4)),
+                    url('../images/back_sto.jpg');*/
+  /*-webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   -o-text-fill-color: transparent;
   -o-background-clip: text;
   -ms-text-fill-color: transparent;
-  -ms-background-clip: text;
+  -ms-background-clip: text;*/
   
 }
 
@@ -115,20 +118,32 @@ h1 span {
 	margin: 0px 12px 0px -30px;
 }
 
+.img-clip {
+  clip-path: url("#numerClipping");
+}
+
+
+.clip-text {
+ font-size: 50px;
+  font-family: Intro-Black;
+ /* line-height: 474px;
+  text-align: center;*/
+}
 
 
 
 
 
-/*.transparent_font {
-    background:url('images/collage.jpg');
+.transparent_font {
+  
+    /*background:url('../images/collage.jpg');
     background-repeat:repeat-x;
-    background-position:0 0;
+    background-position:0 0;*/
     font-size:200px;
-    text-transform:uppercase;
-    text-align:center;
-    font-family:'Luckiest Guy';
-    color:transparent;
+    /*text-transform:uppercase;
+    text-align:center;*/
+    font-family:'Intro-Black';
+    /*color:transparent;
     -webkit-font-smoothing:antialiased;
     -webkit-background-clip:text;
     -moz-background-clip:text;
@@ -136,7 +151,12 @@ h1 span {
     -webkit-text-fill-color:transparent;
     margin:0;
 	color: transparent;
-	background-color: red;
+	background-color: red;*/
+}
+
+
+/*.sto-clip {
+  clip-path: url("#numerClipping");
 }
 */
 /*svg {

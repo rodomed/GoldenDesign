@@ -201,3 +201,18 @@ footer {
 	}
 }
 
+/*.masked {
+	clip-path: url(#mytextClipping);
+}
+.clip-text {
+	 font-family: "Georgia";
+	 font-size: 4em;
+}
+
+.foto img {
+	clip-path: url(#starClipping);
+}
+
+.sto-clip {
+	clip-path: url(#numerClipping);
+}*/
