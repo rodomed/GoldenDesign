@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
       font-family: "Intro-Black";
       src: url("../fonts/Intro-Black/Intro-Black.eot");
       src: url("../fonts/Intro-Black/Intro-Black.eot?#iefix")format("embedded-opentype"),
@@ -36,9 +36,9 @@
       src: url("../fonts/Roboto/Roboto-Bold/RobotoBold.eot?#iefix")format("embedded-opentype"),
       url("../fonts/Roboto/Roboto-Bold/RobotoBold.woff") format("woff"),
       url("../fonts/Roboto/Roboto-Bold/RobotoBold.ttf") format("truetype");
-}
+}*/
 
-header {
+/*header {
 	margin-top: 50px;
 }
 
@@ -59,7 +59,7 @@ svg {
    /* position: absolute;
     top: 0;
     left: 0;*/
-}
+/*}
 
 text, image {
   display: none;
@@ -72,7 +72,7 @@ text, image {
 .clip-numer {
  font-size: 298px;
   font-family: Intro-Black;
-}
+}*/
 
 
     /*height: 100%;*/
@@ -93,7 +93,7 @@ text, image {
   
 
 
-h1 {
+/*h1 {
 	font-family: Roboto-Medium;
 	font-size: 50px;
 	line-height: 60px;
@@ -113,7 +113,42 @@ h1 span {
 	font-size: 16px;
 	line-height: 24px;
 	margin: 0px 12px 0px -30px;
+}*/
+
+
+
+.border {
+  border-width: 20px;
+  border-style: solid;
+  border-image: linear-gradient(130deg, red, yellow, red, yellow, red) 1;
 }
+
+.sto {
+  background-image: url("../images/sto.png");
+}
+
+h1 {
+  font-family: Roboto-Medium;
+  font-size: 50px;
+  line-height: 60px;
+  margin: 130px 30px 30px 75px; 
+  color: #333;
+  font-size: 50px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+h1 span {
+  color:#ffbb01;
+}
+
+.border p {
+  font-family: Intro-Book;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px 60px 0px 75px;
+}
+
 
 
 
