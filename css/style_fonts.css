@@ -1,0 +1,39 @@
+@font-face {
+      font-family: "Intro-Black";
+      src: url("../fonts/Intro-Black/Intro-Black.eot");
+      src: url("../fonts/Intro-Black/Intro-Black.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/Intro-Black/Intro-Black.woff") format("woff"),
+      url("../fonts/Intro-Black/Intro-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Intro-Bold";
+  src: url("../fonts/Intro-Bold/Intro-Bold.eot");
+  src: url("../fonts/Intro-Bold/Intro-Bold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Intro-Bold/Intro-Bold.woff")format("woff"),
+  url("../fonts/Intro-Bold/Intro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Intro-Book";
+  src: url("../fonts/Intro-Book/Intro-Book.eot");
+  src: url("../fonts/Intro-Book/Intro-Book.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Intro-Book/Intro-Book.woff")format("woff"),
+  url("../fonts/Intro-Book/Intro-Book.ttf") format("truetype");
+}
+
+@font-face {
+      font-family: "Roboto-Medium";
+      src: url("../fonts/Roboto/Roboto-Medium/RobotoMedium.eot");
+      src: url("../fonts/Roboto/Roboto-Medium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/Roboto/Roboto-Medium/RobotoMedium.woff") format("woff"),
+      url("../fonts/Roboto/Roboto-Medium/RobotoMedium.ttf") format("truetype");
+}
+
+@font-face {
+      font-family: "Roboto-Black";
+      src: url("../fonts/Roboto/Roboto-Bold/RobotoBold.eot");
+      src: url("../fonts/Roboto/Roboto-Bold/RobotoBold.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/Roboto/Roboto-Bold/RobotoBold.woff") format("woff"),
+      url("../fonts/Roboto/Roboto-Bold/RobotoBold.ttf") format("truetype");
+}
