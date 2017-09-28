@@ -1,20 +1,20 @@
-@media screen and (min-width: 340px) {     /*430px*/ 
+@media screen and (min-width: 340px) {   
 
 		header {
 		margin-top: 0px;
 	}
 	
 	.border {
-		margin: 0px;
+		margin: 0;
 	}
 
   .sto {
-  background-image: url("../images/sto.png");
-  background-repeat: no-repeat;
-  background-size: 50px 60px;/*537px 218px*/;
-  background-position: 20px 20px;
-  min-height: 80px; 
-}
+    background-image: url("../images/sto.png");
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: center 15px;
+    min-height: 100px; 
+  }
 
 	h1 {
 		font-size: 40px;
@@ -74,40 +74,23 @@
   }
 }
 
-@media screen and (min-width: 512px) { 
-  
-  footer {
-    padding: 40px 0px;
-    justify-content: space-around;
-    margin: 0px -15px;
-  }
-}
-
-@media screen and (min-width: 540px) { 
-
-}
-
-@media screen and (min-width: 590px) {   
-
-}
-
- 
-@media screen and (min-width: 640px) { 
-	
-}
-
  /*  --  ( col-sm )  --  */
 
 @media (min-width: 768px) {
 
-	header {
+  header {
 		margin-top: 30px;
 	} 
 
 	.border {
 		 height: 380px;
-		 margin: 0px 0px;
 	}
+
+  .sto {
+    background-size: 370px;
+    background-position: 0px 102px;
+    min-height: 340px; 
+  }
 
 	h1 {
 		font-size: 36px;
@@ -138,13 +121,8 @@
 		font-size: 24px;
 	}
 
-	footer {
-		margin: 0px -15px;
- 	}
-
 	.map {
 		margin: 0px 0px 0px 0px;
-    /*width: 440px;*/
 	}
 }
 
@@ -154,8 +132,14 @@
 	
 	.border {
 		 height: 470px;
-		 margin: 0px 15px;
+     width: 970px;
 	}
+
+  .sto {
+    background-size: 476px;
+    background-position: 12px 130px;
+    min-height: 430px; 
+  }
 
 	h1 {
 		font-size: 40px;
@@ -180,15 +164,15 @@
 		margin: 80px 0px 0px 0px;
  }
 
+ .foto {
+    margin: 0px -15px;
+  }
+
  footer {
-	padding: 80px 20px 80px 20px ;
+	padding: 80px 20px;
+  }
  }
 
- .map {
-    margin: 0px 0px 0px 0px;
-    /*width: 440px;*/
-  }
-}
 
 										/*   --- ( col-lg ) ----    */
 
@@ -200,33 +184,25 @@
 
 	.border {
 		 height: 500px;
-		 margin: 0px 15px;
+     width: 1170px;
 	}
 
-	.clip-numer {
- 		font-size: 298px;
-	}
-
-	h1 {
-	font-family: Roboto-Medium;
-	font-size: 50px;
-	line-height: 60px;
-	margin: 140px 30px 30px -30px; 
-	color: #333;
-	font-size: 50px;
-	line-height: 60px;
-  text-transform: uppercase;
-}
+  .sto {
+    background-size: 537px 218px;
+    background-position: 34px 132px;
+    min-height: 460px; 
+  }
 
   h1 span {
 	 color:#ffbb01;
   }
 
+  h1 {
+    margin: 154px 0px 20px -10px;
+  }
+
   .border p {
-	 font-family: Intro-Book;
-	 font-size: 16px;
-	 line-height: 24px;
-	 margin: 0px 12px 0px -30px;
+	 margin: 0px 12px 0px -10px;
   }
 }
 
@@ -235,15 +211,19 @@
 
 @media (min-width: 1400px) { 
 	.container {
-		width: 1366px;
-	}
-
-	.foto img {
-		margin: auto;
-	}
-
-	footer {
 		width: 1266px;
-		margin: auto;
 	}
+
+  .border {
+     width: 1266px;
+  }
+
+
+  .sto {
+  background-position: 85px 132px;
+}
+
+  .border p {
+   margin: 0px 50px 0px -10px;
+  }
 }
