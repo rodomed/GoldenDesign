@@ -8,6 +8,14 @@
 		margin: 0px;
 	}
 
+  .sto {
+  background-image: url("../images/sto.png");
+  background-repeat: no-repeat;
+  background-size: 50px 60px;/*537px 218px*/;
+  background-position: 20px 20px;
+  min-height: 80px; 
+}
+
 	h1 {
 		font-size: 40px;
 		line-height: 48px;
