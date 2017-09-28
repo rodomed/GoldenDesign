@@ -1,4 +1,4 @@
-@media screen and (min-width: 340px) {   
+@media screen and (min-width: 310px) {   
 
 		header {
 		margin-top: 0px;
@@ -17,7 +17,7 @@
   }
 
 	h1 {
-		font-size: 40px;
+		font-size: 34px;  /*40px;*/
 		line-height: 48px;
 		margin: 10px 8px;
 		text-align: center;
