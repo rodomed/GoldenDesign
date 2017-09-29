@@ -1,4 +1,4 @@
-@media screen and (min-width: 310px) {   
+@media all and (min-width: 310px) {   
 
 		header {
 		margin-top: 0px;
@@ -67,7 +67,7 @@
 	}
 
 
-@media screen and (min-width: 450px) { 
+@media all and (min-width: 450px) { 
 
   .map {
     margin: 20px 0px 0px 0px;
@@ -129,7 +129,7 @@
 
 					/*  --  ( col-md )  --  */
 
-@media (min-width: 992px) {
+@media all and (min-width: 992px) {
 	
 	.border {
 		 height: 470px;
@@ -177,7 +177,7 @@
 
 										/*   --- ( col-lg ) ----    */
 
- @media (min-width: 1200px)  { 
+ @media all and (min-width: 1200px)  { 
 
  	header {
 	margin-top: 50px;
@@ -210,7 +210,7 @@
 
 						/* -- ( MAXIM - SIZE ) --   */
 
-@media (min-width: 1400px) { 
+@media all and (min-width: 1400px) { 
 	.container {
 		width: 1266px;
 	}
