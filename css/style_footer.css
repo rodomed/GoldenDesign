@@ -34,11 +34,22 @@ footer .tuning {
 }
 
 footer img {
-	margin-right: 12px;
+	margin-right: 6px;
 }
 
 .names {
 	width: 180px;
 	margin-bottom: 45px; 
+}
+
+footer a {
+	color: #333;
+}
+
+footer a:visited, footer a:focus {
+	color: #333;
+	text-decoration: none;
+	outline: none;
+	border: none;
 }
 
